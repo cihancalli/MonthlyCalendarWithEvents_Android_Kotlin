@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aylık Takvim</string>
+
+    <string name="mon">PZT</string>
+    <string name="tue">SAL</string>
+    <string name="wed">ÇAR</string>
+    <string name="thu">PER</string>
+    <string name="fri">CUM</string>
+    <string name="sat">CMT</string>
+    <string name="sun">PAZ</string>
+
+    <string name="monday">PAZARTESI</string>
+    <string name="tuesday">SALI</string>
+    <string name="wednesday">ÇARŞAMBA</string>
+    <string name="thursday">PERŞEMBE</string>
+    <string name="friday">CUMA</string>
+    <string name="saturday">CUMARTESİ</string>
+    <string name="sunday">PAZAR</string>
+
+    <string name="january">Ocak</string>
+    <string name="february">Şubat</string>
+    <string name="march">Mart</string>
+    <string name="april">Nisan</string>
+    <string name="may">Mayıs</string>
+    <string name="june">Haziran</string>
+    <string name="july">Temmuz</string>
+    <string name="august">Ağustos</string>
+    <string name="september">Eylül</string>
+    <string name="october">Ekim</string>
+    <string name="november">Kasım</string>
+    <string name="december">Aralık</string>
+
+</resources>
