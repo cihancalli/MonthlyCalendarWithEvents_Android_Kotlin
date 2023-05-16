@@ -19,7 +19,7 @@
             <include
                 layout="@layout/weekly_short_title_layout"
                 android:id="@+id/fragmentWeekTitleConstraintLayout"
-                android:layout_width="@dimen/margin_0"
+                android:layout_width="@dimen/m_0"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toTopOf="@+id/fragmentMonthCalendarViewPager"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -28,11 +28,11 @@
 
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/fragmentMonthCalendarViewPager"
-                android:layout_width="@dimen/margin_0"
+                android:layout_width="@dimen/m_0"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_14"
-                android:layout_marginEnd="@dimen/margin_14"
-                android:layout_marginBottom="@dimen/margin_7"
+                android:layout_marginStart="@dimen/m_14"
+                android:layout_marginEnd="@dimen/m_14"
+                android:layout_marginBottom="@dimen/m_7"
                 app:layout_constraintBottom_toTopOf="@+id/fragmentMonthDividerView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -40,8 +40,8 @@
 
             <View
                 android:id="@+id/fragmentMonthDividerView"
-                android:layout_width="@dimen/margin_0"
-                android:layout_height="@dimen/margin_1"
+                android:layout_width="@dimen/m_0"
+                android:layout_height="@dimen/m_1"
                 android:background="@color/gray_200"
                 app:layout_constraintBottom_toTopOf="@+id/fragmentMonthEventFrameLayout"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
                 android:id="@+id/fragmentMonthEventFrameLayout"
                 android:name="com.zerdasoftware.monthlycalendarwithevents.ui.calender.monthlyCalendar.screen.MonthlyEventFragment"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/margin_0"
+                android:layout_height="@dimen/m_0"
                 app:defaultNavHost="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

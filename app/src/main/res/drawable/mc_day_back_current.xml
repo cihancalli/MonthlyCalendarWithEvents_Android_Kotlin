@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <solid
-        android:color="@color/mc_selected_bc"/>
+    <solid android:color="@color/mc_current_bc" />
 
     <corners android:radius="@dimen/mc_day_back_r" />
 

@@ -47,43 +47,39 @@ class DayOfMonthlyAdapter(
         holder.dayOfMonthDayTextView.text = modelClass.day
         holder.dayOfMonthDayTextView.setTextColor(Color.parseColor(modelClass.textStatusColor))
 
-        if (modelClass.textStatusColor == context.getString(R.color.monthly_text_color) || modelClass.textStatusColor == context.getString(
-                R.color.monthly_default_text_color) || modelClass.contentStatusColor == R.drawable.mc_day_back_selected) {
+        holder.dayOfMonthLayoutContent.setOnClickListener {
+            if (oldPosition != position) {
 
-            holder.dayOfMonthLayoutContent.setOnClickListener {
-                if (oldPosition != position) {
-
-                    //eski tıklanan günü null değilse eski haline getir
-                    if (oldPosition != -1) {
-                        dayOfMonthList[oldPosition].contentStatusColor = contentStatusColor
-                        dayOfMonthList[oldPosition].eventStatusColor = eventStatusColor
-                        dayOfMonthList[oldPosition].textStatusColor = textStatusColor
-                    }
-
-                    //Yeni tıklanan günü olda kaydet
-                    contentStatusColor = modelClass.contentStatusColor!!
-                    eventStatusColor = modelClass.eventStatusColor!!
-                    textStatusColor = modelClass.textStatusColor!!
-
-                    //yeni tıklanan günü yeni haline getir
-                    modelClass.contentStatusColor =
-                        R.drawable.mc_day_back_selected
-                    modelClass.textStatusColor = context.getString(R.color.monthly_default_text_color)
-
-                    //tıklanan günün eventi varsa
-                    if (modelClass.isEvent!!) {
-                        modelClass.eventStatusColor = R.drawable.circle_event_selected
-                    } else {
-                        modelClass.eventStatusColor = R.drawable.circle_event_selected
-                    }
-
-                    setOnClickDayOfMonth.setDailyEvent(position, modelClass.day!!)
-                    notifyDataSetChanged()
+                //eski tıklanan günü null değilse eski haline getir
+                if (oldPosition != -1) {
+                    dayOfMonthList[oldPosition].contentStatusColor = contentStatusColor
+                    dayOfMonthList[oldPosition].eventStatusColor = eventStatusColor
+                    dayOfMonthList[oldPosition].textStatusColor = textStatusColor
                 }
-                //yeni tıklanan günü olda kaydet
-                oldPosition = position
+
+                //Yeni tıklanan günü olda kaydet
+                contentStatusColor = modelClass.contentStatusColor!!
+                eventStatusColor = modelClass.eventStatusColor!!
+                textStatusColor = modelClass.textStatusColor!!
+
+                //yeni tıklanan günü yeni haline getir
+                modelClass.contentStatusColor = R.drawable.mc_day_back_selected
+                modelClass.textStatusColor = context.getString(R.color.mc_selected_tc)
+
+                //tıklanan günün eventi varsa
+                if (modelClass.isEvent!!) {
+                    modelClass.eventStatusColor = R.drawable.mc_status_selected
+                } else {
+                    modelClass.eventStatusColor = R.drawable.mc_status_selected
+                }
+
+                setOnClickDayOfMonth.setDailyEvent(position, modelClass.day!!)
+                notifyDataSetChanged()
             }
+            //yeni tıklanan günü olda kaydet
+            oldPosition = position
         }
+
     }
 
     override fun getItemCount(): Int = dayOfMonthList.size

@@ -11,6 +11,7 @@
     <!-->APP COLOR PALLET START</-->
     <color name="base">#FFFFFF</color>
     <color name="whiteBlack">#000000</color>
+    <color name="opacityWhiteBlack">#4DFFFFFF</color>
 
     <color name="gray_50">#F8F9FA</color>
     <color name="gray_100">#F0F3F7</color>
@@ -24,9 +25,106 @@
     <color name="gray_900">#252D37</color>
     <color name="text_800">#2F3741</color>
 
+    <!--> Primary </-->
+    <color name="primary500">#246BFD</color>
+    <color name="primary400">#CC246BFD</color>
+    <color name="primary300">#99246BFD</color>
+    <color name="primary200">#59246BFD</color>
+    <color name="primary100">#33246BFD</color>
+    <color name="primary50">#1F246BFD</color>
 
-    <color name="weekly_short_title_text_color">@color/gray_800</color>
-    <color name="monthly_first_text_color">@color/gray_50</color>
-    <color name="monthly_text_color">@color/gray_800</color>
-    <color name="monthly_default_text_color">@color/gray_800</color>
+    <!--> Secondary </-->
+    <color name="secondary">#006EC8</color>
+    <color name="secondary30">#4D006EC8</color>
+    <color name="primary_light">#CBF0FF</color>
+
+    <!--> Dark </-->
+    <color name="dark2">#111923</color>
+    <color name="dark">#FFFFFF</color>
+
+    <!--> Success </-->
+    <color name="success_500">#0ACF97</color>
+    <color name="success_200">#590ACF97</color>
+    <color name="success_50">#1F0ACF97</color>
+
+    <color name="success_dark">#09B080</color>
+    <color name="success_light">#590ACF97</color>
+    <color name="success_border">#C1F3E5</color>
+
+    <!--> Info </-->
+    <color name="info_500" >@color/primary500</color>
+    <color name="info_200">@color/primary200</color>
+    <color name="info_50">@color/primary50</color>
+
+    <!--> Warning </-->
+    <color name="warning">#FFBC00</color>
+    <color name="warning_200">#4DFFBC00</color>
+    <color name="warning_50">#1FFFBC00</color>
+
+    <color name="warning_dark">#F0AA00</color>
+    <color name="warning_light">#59FFBC00</color>
+    <color name="warning_border">#FFE08A</color>
+
+    <!--> Alert </-->
+
+    <color name="alert">#FA5C7C</color>
+    <color name="alert_200">#4DFA5C7C</color>
+    <color name="alert_50">#1FFA5C7C</color>
+
+
+    <color name="alert_dark">#D54E69</color>
+    <color name="alert_light">#59FA5C7C</color>
+    <color name="alert_border">#FFB5C4</color>
+
+    <!--> Other </-->
+    <color name="transparent">#00F7FAFA</color>
+
+    <color name="red">#F54336</color>
+    <color name="pink">#EA1E61</color>
+    <color name="purple">#9D28AC</color>
+    <color name="indigo">#3F51B2</color>
+    <color name="blue">#1A96F0</color>
+    <color name="light_blue">#00A9F1</color>
+    <color name="teal">#009689</color>
+    <color name="light_green">#8BC255</color>
+    <color name="lime">#CDDC4C</color>
+    <color name="amber">#FFC02D</color>
+    <color name="deep_orange">#FF5726</color>
+    <color name="brown">#7A5548</color>
+    <color name="blue_gray">#607D8A</color>
+
+
+    <color name="weekly_short_title_tc">@color/gray_800</color>
+
+    <!-->MONTHLY CALENDAR</-->
+    <color name="mc_first_def_tc">@color/gray_50</color>
+    <color name="mc_first_def_bc">@color/gray_50</color>
+    <color name="mc_status_first_def_bc">@color/gray_50</color>
+
+    <color name="mc_def_tc">@color/gray_800</color>
+    <color name="mc_def_bc">@color/gray_200</color>
+    <color name="mc_status_def_bc">@color/gray_200</color>
+    <color name="mc_status_event_def_bc">@color/gray_800</color>
+
+    <color name="mc_current_tc">@color/gray_800</color>
+    <color name="mc_current_bc">@color/gray_800</color>
+    <color name="mc_status_current_bc">@color/gray_800</color>
+    <color name="mc_status_event_current_bc">@color/gray_800</color>
+
+    <color name="mc_selected_tc">@color/gray_200</color>
+    <color name="mc_selected_bc">@color/gray_800</color>
+    <color name="mc_status_selected_bc">@color/gray_800</color>
+    <color name="mc_status_event_selected_bc">@color/gray_200</color>
+
+    <color name="mc_weekend_tc">@color/gray_800</color>
+    <color name="mc_weekend_bc">@color/gray_300</color>
+    <color name="mc_status_weekend_bc">@color/gray_300</color>
+    <color name="mc_status_event_weekend_bc">@color/gray_400</color>
+
+    <color name="mc_holiday_tc">@color/gray_800</color>
+    <color name="mc_holiday_bc">@color/gray_800</color>
+    <color name="mc_status_holiday_bc">@color/gray_800</color>
+    <color name="mc_status_event_holiday_bc">@color/gray_800</color>
+
+
 </resources>

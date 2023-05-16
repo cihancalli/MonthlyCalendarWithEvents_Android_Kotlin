@@ -1,43 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_0">0dp</dimen>
-    <dimen name="margin_1">1dp</dimen>
-    <dimen name="margin_3">3dp</dimen>
-    <dimen name="margin_4">4dp</dimen>
-    <dimen name="margin_5">5dp</dimen>
-    <dimen name="margin_6">6dp</dimen>
-    <dimen name="margin_7">7dp</dimen>
-    <dimen name="margin_8">8dp</dimen>
-    <dimen name="margin_10">10dp</dimen>
-    <dimen name="margin_12">12dp</dimen>
-    <dimen name="margin_14">14dp</dimen>
-    <dimen name="margin_15">15dp</dimen>
-    <dimen name="margin_16">16dp</dimen>
-    <dimen name="margin_18">18dp</dimen>
-    <dimen name="margin_20">20dp</dimen>
-    <dimen name="margin_24">24dp</dimen>
-    <dimen name="margin_30">30dp</dimen>
-    <dimen name="margin_32">32dp</dimen>
-    <dimen name="margin_40">40dp</dimen>
-    <dimen name="margin_50">50dp</dimen>
-    <dimen name="margin_55">55dp</dimen>
-    <dimen name="margin_100">100dp</dimen>
 
-    <dimen name="text_size_12">12sp</dimen>
-    <dimen name="text_size_14">14sp</dimen>
-    <dimen name="text_size_15">15sp</dimen>
-    <dimen name="text_size_16">16sp</dimen>
-    <dimen name="text_size_17">17sp</dimen>
-    <dimen name="text_size_20">20sp</dimen>
-    <dimen name="text_size_24">24sp</dimen>
-    <dimen name="text_size_25">25sp</dimen>
-    <dimen name="text_size_100">100sp</dimen>
+    <!--> ts-> text size </-->
+    <!--> st-> short size </-->
+    <!--> lm-> layout margin </-->
+    <!--> w-> width </-->
+    <!--> h-> height </-->
+    <!--> r-> radius </-->
+    <!--> m-> margin </-->
+
+
+    <dimen name="m_0">0dp</dimen>
+    <dimen name="m_1">1dp</dimen>
+    <dimen name="m_2">2dp</dimen>
+    <dimen name="m_3">3dp</dimen>
+    <dimen name="m_4">4dp</dimen>
+    <dimen name="m_5">5dp</dimen>
+    <dimen name="m_6">6dp</dimen>
+    <dimen name="m_7">7dp</dimen>
+    <dimen name="m_8">8dp</dimen>
+    <dimen name="m_10">10dp</dimen>
+    <dimen name="m_12">12dp</dimen>
+    <dimen name="m_14">14dp</dimen>
+    <dimen name="m_15">15dp</dimen>
+    <dimen name="m_16">16dp</dimen>
+    <dimen name="m_18">18dp</dimen>
+    <dimen name="m_20">20dp</dimen>
+    <dimen name="m_24">24dp</dimen>
+    <dimen name="m_30">30dp</dimen>
+    <dimen name="m_32">32dp</dimen>
+    <dimen name="m_40">40dp</dimen>
+    <dimen name="m_50">50dp</dimen>
+    <dimen name="m_55">55dp</dimen>
+    <dimen name="m_100">100dp</dimen>
+
+    <dimen name="ts_12">12sp</dimen>
+    <dimen name="ts_14">14sp</dimen>
+    <dimen name="ts_15">15sp</dimen>
+    <dimen name="ts_16">16sp</dimen>
+    <dimen name="ts_17">17sp</dimen>
+    <dimen name="ts_20">20sp</dimen>
+    <dimen name="ts_24">24sp</dimen>
+    <dimen name="ts_25">25sp</dimen>
+    <dimen name="ts_100">100sp</dimen>
 
     <!--> WEEKLY SHORT TITLE </-->
-    <dimen name="weekly_short_title_text_size">@dimen/text_size_12</dimen>
-    <dimen name="weekly_short_title_layout_margin_start_size">@dimen/margin_16</dimen>
-    <dimen name="weekly_short_title_layout_margin_top_size">@dimen/margin_16</dimen>
-    <dimen name="weekly_short_title_layout_margin_end_size">@dimen/margin_16</dimen>
-    <dimen name="weekly_short_title_layout_margin_bottom_size">@dimen/margin_4</dimen>
+    <dimen name="weekly_st_ts">@dimen/ts_12</dimen>
+    <dimen name="weekly_st_lm_starts">@dimen/m_16</dimen>
+    <dimen name="weekly_st_lm_tops">@dimen/m_16</dimen>
+    <dimen name="weekly_st_lm_ends">@dimen/m_16</dimen>
+    <dimen name="weekly_st_lm_bottoms">@dimen/m_4</dimen>
+
+
+    <dimen name="mc_status_w">@dimen/m_4</dimen>
+    <dimen name="mc_status_h">@dimen/m_4</dimen>
+    <dimen name="mc_day_back_r">@dimen/m_4</dimen>
+
+
 
 </resources>

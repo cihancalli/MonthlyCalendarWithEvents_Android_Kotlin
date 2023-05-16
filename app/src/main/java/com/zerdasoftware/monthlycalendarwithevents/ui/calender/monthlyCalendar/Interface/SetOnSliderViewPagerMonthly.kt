@@ -2,7 +2,6 @@ package com.zerdasoftware.monthlycalendarwithevents.ui.calender.monthlyCalendar.
 
 import com.zerdasoftware.monthlycalendarwithevents.ui.calender.monthlyCalendar.model.DayOfMonthlyModel
 
-
 interface SetOnSliderViewPagerMonthly {
     fun  setOnSliderViewPagerMonthlyData(dayOfMonth:ArrayList<DayOfMonthlyModel>)
 }

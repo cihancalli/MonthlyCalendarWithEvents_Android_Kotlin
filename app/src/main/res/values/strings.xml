@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Monthly Calendar</string>
 
+
+
+    <string name="tuner_year" translatable="false">2023</string>
+
+
     <string name="mon">MON</string>
     <string name="tue">TUE</string>
     <string name="wed">WED</string>
