@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentWeeklyShortTitleConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragmentWeekTitleConstraintLayout"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/weekly_short_title_layout_margin_start_size"
+        android:layout_marginTop="@dimen/weekly_short_title_layout_margin_top_size"
+        android:layout_marginEnd="@dimen/weekly_short_title_layout_margin_end_size"
+        android:layout_marginBottom="@dimen/weekly_short_title_layout_margin_bottom_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/fragmentMonthMonTitleTextView"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/mon"
+            android:textColor="@color/weekly_short_title_text_color"
+            android:textSize="@dimen/weekly_short_title_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fragmentMonthTueTitleTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragmentMonthTueTitleTextView"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/tue"
+            android:textColor="@color/weekly_short_title_text_color"
+            android:textSize="@dimen/weekly_short_title_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fragmentMonthWedTitleTextView"
+            app:layout_constraintStart_toEndOf="@+id/fragmentMonthMonTitleTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragmentMonthWedTitleTextView"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/wed"
+            android:textColor="@color/weekly_short_title_text_color"
+            android:textSize="@dimen/weekly_short_title_text_size"
+            app:layout_constraintEnd_toStartOf="@+id/fragmentMonthThuTitleTextView"
+            app:layout_constraintStart_toEndOf="@+id/fragmentMonthTueTitleTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragmentMonthThuTitleTextView"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/thu"
+            android:textColor="@color/weekly_short_title_text_color"
+            android:textSize="@dimen/weekly_short_title_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fragmentMonthFriTitleTextView"
+            app:layout_constraintStart_toEndOf="@+id/fragmentMonthWedTitleTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragmentMonthFriTitleTextView"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/fri"
+            android:textColor="@color/weekly_short_title_text_color"
+            android:textSize="@dimen/weekly_short_title_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fragmentMonthSatTitleTextView"
+            app:layout_constraintStart_toEndOf="@+id/fragmentMonthThuTitleTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragmentMonthSatTitleTextView"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/sat"
+            android:textColor="@color/weekly_short_title_text_color"
+            android:textSize="@dimen/weekly_short_title_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fragmentMonthSunTitleTextView"
+            app:layout_constraintStart_toEndOf="@+id/fragmentMonthFriTitleTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragmentMonthSunTitleTextView"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/sun"
+            android:textColor="@color/weekly_short_title_text_color"
+            android:textSize="@dimen/weekly_short_title_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fragmentMonthSatTitleTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

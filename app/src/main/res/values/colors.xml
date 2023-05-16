@@ -23,4 +23,10 @@
     <color name="gray_800">#2F3741</color>
     <color name="gray_900">#252D37</color>
     <color name="text_800">#2F3741</color>
+
+
+    <color name="weekly_short_title_text_color">@color/gray_800</color>
+    <color name="monthly_first_text_color">@color/gray_50</color>
+    <color name="monthly_text_color">@color/gray_800</color>
+    <color name="monthly_default_text_color">@color/gray_800</color>
 </resources>

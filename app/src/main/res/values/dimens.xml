@@ -10,8 +10,10 @@
     <dimen name="margin_8">8dp</dimen>
     <dimen name="margin_10">10dp</dimen>
     <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
     <dimen name="margin_15">15dp</dimen>
     <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
     <dimen name="margin_20">20dp</dimen>
     <dimen name="margin_24">24dp</dimen>
     <dimen name="margin_30">30dp</dimen>
@@ -30,4 +32,12 @@
     <dimen name="text_size_24">24sp</dimen>
     <dimen name="text_size_25">25sp</dimen>
     <dimen name="text_size_100">100sp</dimen>
+
+    <!--> WEEKLY SHORT TITLE </-->
+    <dimen name="weekly_short_title_text_size">@dimen/text_size_12</dimen>
+    <dimen name="weekly_short_title_layout_margin_start_size">@dimen/margin_16</dimen>
+    <dimen name="weekly_short_title_layout_margin_top_size">@dimen/margin_16</dimen>
+    <dimen name="weekly_short_title_layout_margin_end_size">@dimen/margin_16</dimen>
+    <dimen name="weekly_short_title_layout_margin_bottom_size">@dimen/margin_4</dimen>
+
 </resources>

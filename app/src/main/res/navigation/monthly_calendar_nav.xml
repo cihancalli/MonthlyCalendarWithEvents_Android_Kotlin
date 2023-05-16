@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/monthly_calendar_nav"
+    app:startDestination="@id/monthlyFragment">
+
+    <fragment
+        android:id="@+id/monthlyFragment"
+        android:name="com.zerdasoftware.monthlycalendarwithevents.ui.calender.monthlyCalendar.screen.MonthlyFragment"
+        android:label="MonthlyFragment"
+        tools:layout="@layout/fragment_monthly"/>
+</navigation>
